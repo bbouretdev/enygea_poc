@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: notion
+    schema: bronze_data
+    tables:
+      - name: notion_sprints
+      - name: notion_points
+      - name: notion_tickets
